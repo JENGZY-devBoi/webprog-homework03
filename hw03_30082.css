@@ -1,0 +1,140 @@
+/* 
+    Color:
+        #565656
+        #8595a0
+        #c1c3c4
+        #2ca22c
+*/
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    color: #565656;
+}
+
+.container {
+    position: relative;
+    background-color: #586670;
+    height: 100vh;
+}
+
+.register-form {
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+    width: 400px;
+    background-color: #edf0f4;
+    padding: 50px 30px 50px 30px;
+    border-radius: 5px;
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.title-box {
+    /* width: 100%;  */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 20px;
+}
+
+.main-title {
+    font-size: 28px;
+    font-weight: 500;
+    color: #6f6f6f;
+}
+
+.line {
+    width: 150px;
+    height: 1px;
+    background-color: #aeb0b1;
+}
+
+.sub-title {
+    color: #aeb0b1;
+    font-size: 14px;
+    margin-bottom: 15px;
+}
+
+.input {
+    padding: 10px;
+    font-size: 14px;
+    font-weight: 500;
+    color: #6f6f6f;
+    border: 1px solid #c1c3c4;
+    border-radius: 5px;
+    width: 100%;
+}
+
+input::placeholder {
+    color: #c1c3c4;
+}
+
+.fullname-input {
+    display: flex;
+    column-gap: 20px;
+}
+
+.accept-box {
+    display: flex;
+    align-items: center;
+    column-gap: 10px;
+    color: #6f6f6f;
+    font-size: 14px;
+}
+
+.checkbox {
+    cursor: pointer;
+}
+
+.accept-box a:link,
+.accept-box a:active {
+    text-decoration: none;
+    color: #2ca22c;
+}
+
+.accept-box a:link,
+.accept-box a:visited{
+    color: #2ca22c;
+}
+
+.btn {
+    font-size: 16px;
+    font-weight: 600;
+    color: #f4f4f4;
+    padding: 10px;
+    cursor: pointer;
+    border: none;
+    background-color: #2ca22c;
+    border-radius: 5px;
+}
+
+.signin-box {
+    position: absolute;
+    display: flex;
+    column-gap: 5px;
+    font-size: 14px;
+    color: #f4f4f4;
+
+    top: 61%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.signin-box a:link,
+.signin-box a:active {
+    color: #f4f4f4;
+}
+
+.signin-box a:link,
+.signin-box a:visited {
+    color: #f4f4f4;
+}

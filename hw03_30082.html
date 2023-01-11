@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=Ç, initial-scale=1.0">
+    <link rel="stylesheet" href="./hw03_30082.css" />
+
+    <title>Homework3 | Register</title>
+</head>
+
+<body>
+    <div class="container">
+        <form class="register-form">
+            <div class="title-box">
+                <div class="line"></div>
+                <h1 class="main-title">Register</h1>
+                <div class="line"></div>
+            </div>
+            <p class="sub-title">Create your account. It's free and only takes a minute.</p>
+            <div class="fullname-input">
+                <input
+                    class="input" 
+                    type="text" 
+                    name="firstname" 
+                    required 
+                    placeholder="First Name" 
+                />
+                <input
+                    class="input" 
+                    type="text" 
+                    name="lastname" 
+                    required 
+                    placeholder="Last Name" 
+                />
+            </div>
+            <input
+                class="input" 
+                type="email" 
+                name="email" 
+                required 
+                placeholder="Email" 
+            />
+            <input
+                class="input" 
+                type="password" 
+                name="password" 
+                required 
+                placeholder="Password" 
+            />
+            <input
+                class="input" 
+                type="password" 
+                name="confirmpassword" 
+                required 
+                placeholder="Confirm Password" 
+            />
+
+            <div class="accept-box">
+                <input
+                    class="checkbox"
+                    type="checkbox" name="accept" 
+                />
+                <label for="accept">
+                    I accept the <a href="#">Term of Use</a> & <a href="#">Privacy Policy</a>
+                </label>
+            </div>
+
+            <button class="btn">Register Now</button>
+        </form>
+
+        <div class="signin-box">
+            <p>Already have an account?</p>
+            <a href="#">Sign In</a>
+        </div>
+    </div>
+</body>
+
+</html>
